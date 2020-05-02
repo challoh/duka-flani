@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/java1"
+    android:orientation="vertical"
+    tools:context=".signin">
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/md_grey_50"
+        android:layout_marginRight="32dp"
+        android:hint="Name" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="32dp"
+        android:textColorHint="@color/md_grey_50"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="end"
+        android:textColor="@color/md_grey_50"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/md_brown_700"
+        android:text="submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/md_brown_700"
+        android:text="submit"
+        android:paddingTop="0dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>

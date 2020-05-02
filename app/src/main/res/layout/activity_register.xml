@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mj2"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/md_brown_700"
+        android:layout_marginRight="32dp"
+        android:hint="Name" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/md_brown_700"
+        android:layout_marginRight="32dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="32dp"
+        android:textColorHint="@color/md_brown_700"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/md_brown_700"
+        android:text="submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+
+
+
+
+</LinearLayout>
